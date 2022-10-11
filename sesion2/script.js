@@ -76,3 +76,44 @@ var messaje = speed > 120 ? "Vas Volando"
         : "vas debajo del limite"
     )
 console.log(messaje)
+
+
+
+//ejemplo truthy / falsy
+
+if (0) {
+    messaje1 = "truthy";
+} else {
+    messaje1 = "falsy";
+}console.log(messaje1)
+
+
+//Bucles (ciclos)
+
+for (var index = 0; index <10; index++) {
+    console.log("hola mundo ", index);
+}
+
+var i=0;
+
+while (i<100) {
+    if (i===10) {
+        break;
+    }
+    if (i<50) {
+        console.log("hola mundo", i, "primeros 50")
+    } else{
+        console.log("hola mundo", i, "ultimos 50")
+    }
+    i++;
+}
+
+
+//ejercicio
+var j=0;
+var messaje2
+
+for(j=0 ; j<=50; j++){
+    messaje2=j*2;
+    console.log(messaje2)
+}
